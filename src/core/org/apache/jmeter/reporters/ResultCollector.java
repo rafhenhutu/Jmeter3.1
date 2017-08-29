@@ -170,14 +170,14 @@ public class ResultCollector extends AbstractListenerElement implements SampleLi
     
     //alpharuan add boolean jtlfailonly
 
-    public ResultCollector(Summariser summer, boolean jtlfailonly) {
-//      this(null);
-      setErrorLogging(true);
-      setSuccessOnlyLogging(false);
-      setProperty(new ObjectProperty(SAVE_CONFIG, new SampleSaveConfiguration()));
-      summariser = summer;
-
-  }
+//    public ResultCollector(Summariser summer, boolean jtlfailonly) {
+////      this(null);
+//      setErrorLogging(true);
+//      setSuccessOnlyLogging(false);
+//      setProperty(new ObjectProperty(SAVE_CONFIG, new SampleSaveConfiguration()));
+//      summariser = summer;
+//
+//  }
 
     /**
      * Constructor which sets the used {@link Summariser}
